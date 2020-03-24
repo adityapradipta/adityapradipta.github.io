@@ -1,0 +1,279 @@
+/* Style general */
+
+/* font */
+@font-face {
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/spartan/v1/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrGFuV6HABTdfw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/spartan/v1/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrGFuV6JABQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', Arial, sans-serif;
+}
+
+/*navbar */
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #88bdbc;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar img{
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    vertical-align: ;
+    height: 100%;
+    width: 135px;
+    top: 50px;
+    float: none;
+    margin: 0 25px;
+   
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row ;
+    padding: 0px;
+    margin: 0 0 0 100px;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.navbar ul a{
+    text-decoration: none; 
+    font-size: 30px;
+    color:black;
+    font-weight: bolder;
+}
+
+.navbar ul a li{
+    list-style-type: none;
+    padding: 20px;
+    margin: 10px;  
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+    transition: all 0.5s;
+}
+
+/* main */
+main{
+    width: 100%;
+    padding-top: 250px;
+    
+}
+
+#background-index{
+    background-image: url(./Gambar/background1.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: center;
+    filter: grayscale(60%);
+       
+}
+
+#background-city1{
+    background-image: url(./Gambar/jakarta1.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: center;
+    filter: grayscale(60%);
+       
+}
+
+#background-city2{
+    background-image: url(./Gambar/tokyo1.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: center;
+    filter: grayscale(60%);
+       
+}
+
+#background-city3{
+    background-image: url(./Gambar/newyork1.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: center;
+    filter: grayscale(60%);      
+}
+
+#background-city4{
+    background-color: #112d32;
+    padding-top:150px;  
+}
+
+.title-text h1{
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+.title-text p{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+h2{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+    color:white;
+    
+}
+.city-text{
+    padding-bottom: 100px;
+    margin: 100px 0;
+}
+
+.city-text h1{
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 10px 0;
+    
+}
+
+.content-index{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    text-align: center;
+    padding: 0 50px;
+    background-color: #4f4a41;
+    color: white;
+
+}
+.content-index div p{
+    padding: 0 30px;
+}
+
+.content-index img{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.city-description{
+    font-size: 20px;
+    background-color: #4f4a41;
+    color: white;
+    
+
+}
+.city-description p{
+    color: white;
+    text-align: justify;
+    padding: 0 50px;
+}
+
+.city-description h2{
+        padding: 10px 10px;
+        color:white;
+        background-color: #254e58;
+}
+
+#background-city4 h1{
+    background-color: #4f4a41;
+    padding: 20px, 0;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+#background-city4 p{
+    
+    color:#88bdbc;
+    text-align: left;
+    padding: 0 100px;
+}
+
+#our-team{
+    display: grid;
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
+}
+#our-team h2{
+    width: 100%
+}
+#our-team h2{
+    padding-top: 0;
+}
+
+/* footer */
+footer{
+    background-color: #88bdbc;
+    text-align: left;
+    font-size: 12px;
+    color: black;
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-end;
+    font-size: 15px;
+    font-weight: bolder
+    ;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+}
+footer ul li{
+    list-style-type: none;
+}
+
+footer img{
+    padding: 10px;
+    justify-content: center;
+    
+}
